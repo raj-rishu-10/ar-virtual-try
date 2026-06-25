@@ -1,4 +1,5 @@
 {
+  "name": "ar-virtual-try-on-web-unique",
   "builds": [
     {
       "src": "apps/web/package.json",
