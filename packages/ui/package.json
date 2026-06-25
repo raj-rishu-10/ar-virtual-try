@@ -1,0 +1,27 @@
+{
+  "name": "@ar-vto/ui",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@ar-vto/face-tracking": "workspace:*",
+    "@ar-vto/hooks": "workspace:*",
+    "@ar-vto/shared": "workspace:*",
+    "@ar-vto/store": "workspace:*",
+    "@ar-vto/three-engine": "workspace:*",
+    "@react-three/drei": "^9.88.16",
+    "@react-three/fiber": "^8.15.11",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.300.0",
+    "tailwind-merge": "^2.2.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@types/three": "^0.160.0",
+    "react": "^18.2.0",
+    "typescript": "^5.4.5"
+  }
+}
